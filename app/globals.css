@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+
+
+
+
+:root {
+  
+  background-color: black;
+color: white;
+font-family: var(--font-robot), monospace;
+ 
+
+}
+
+
+
