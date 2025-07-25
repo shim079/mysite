@@ -36,7 +36,7 @@ const page = () => {
 
         <div className={Styles.projectCard}>
           <div className="projectImage">
-            <Image src={`/img1.png`} alt={"img"} width={"250"} height={"200"} />
+            <Image src={`./img1.png`} alt={"img"} width={"250"} height={"200"} />
           </div>
 
           <div className={Styles.projectInfo}>
