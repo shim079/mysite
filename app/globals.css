@@ -6,7 +6,7 @@
 
 
 :root {
-  
+  scroll-behavior: smooth;
   background-color: black;
 color: white;
 font-family: var(--font-robot), monospace;

@@ -58,7 +58,7 @@ const Page = () => {
         <div className='pl-15 pr-150 flex flex-col gap-2'>
           <label htmlFor='fullname'>Your Name</label>
           <input
-            
+
             name="fullname"
             className='w-150 h-10 px-6 py-2 rounded-2xl border border-slate-50'
             type='text'
@@ -70,7 +70,7 @@ const Page = () => {
         <div className='pl-15 pr-150 flex flex-col gap-2'>
           <label htmlFor='email'>Your Email</label>
           <input
-            
+
             name="email"
             className='w-150 h-10 px-6 py-2 rounded-2xl border border-slate-50'
             type='email'
@@ -82,7 +82,7 @@ const Page = () => {
         <div className='pl-15 pr-150 flex flex-col gap-2'>
           <label htmlFor='message'>Your Message</label>
           <textarea
-           
+
             name="message"
             className='shadow-md px-6 py-2 border border-slate-50 h-60 w-150 rounded-2xl'
             id='message'
