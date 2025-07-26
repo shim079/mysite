@@ -38,16 +38,16 @@ export default function Navbar() {
                     <a href='/' className='text-white  hover:text-black rounded-lg p-2'>
                         Home
                     </a>
-                    <Link href='/Services' className='text-white  hover:text-black rounded-lg p-2'>
+                    <Link href='/mysite/Services' className='text-white  hover:text-black rounded-lg p-2'>
                         Services
                     </Link>
-                    <a href='/Project' className='text-white  hover:text-black rounded-lg p-2'>
+                    <a href='/mysite/Project' className='text-white  hover:text-black rounded-lg p-2'>
                         Projects
                     </a>
-                    <a href='/About' className='text-white  hover:text-black rounded-lg p-2'>
+                    <a href='/mysite/About' className='text-white  hover:text-black rounded-lg p-2'>
                         About
                     </a>
-                    <a href='/Contact' className='text-white  hover:text-black rounded-lg p-2'>
+                    <a href='/mysite/Contact' className='text-white  hover:text-black rounded-lg p-2'>
                         Contact
                     </a>
                 </div>
