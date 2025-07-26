@@ -4,21 +4,21 @@ import React from 'react'
 
 const App = () => {
     const squares = [
-        { size: 'w-100 h-120', color: 'bg-blue-900', imageUrl: '/gl6.png' },
+        { size: 'w-100 h-120', color: 'bg-blue-900', imageUrl: './gl6.png' },
         { size: 'w-0 h-0' },
-        { size: 'w-140 h-70', imageUrl: '/gl12.png' },
-        { size: 'w-0 h-0', color: 'bg-blue-600', imageUrl: '/gl7.png' },
-        { size: 'w-0 h-0', color: 'bg-blue-900', imageUrl: '/gl4.png' },
-        { size: 'w-140 h-70', color: 'bg-blue-700', imageUrl: '/img3.png' },
-        { size: 'w-0 h-0' , color: 'bg-blue-700', imageUrl: '/gl9.png'},
-        { size: 'w-70 h-90', color: 'bg-blue-800', imageUrl: '/gl2.png' },
-        { size: 'w-0 h-0', color: 'bg-blue-900', imageUrl: '/gl10.png' },
-        { size: 'w-0 h-0' , color: 'bg-blue-700', imageUrl: '/gl9.png'},
-        { size: 'w-150 h-80', color: 'bg-blue-700', imageUrl: '/gl3.png' },
-        { size: 'w-0 h-0', color: 'bg-blue-400', imageUrl: '/img2.png' },
-        { size: 'w-0 h-0', color: 'bg-blue-800', imageUrl: '/img2.png' },
-        { size: 'w-90 h-70',  imageUrl: '/gl5.png'},
-        { size: 'w-140 h-50', imageUrl: '/gl11.png'},
+        { size: 'w-140 h-70', imageUrl: './gl12.png' },
+        { size: 'w-0 h-0', color: 'bg-blue-600', imageUrl: './gl7.png' },
+        { size: 'w-0 h-0', color: 'bg-blue-900', imageUrl: './gl4.png' },
+        { size: 'w-140 h-70', color: 'bg-blue-700', imageUrl: './img3.png' },
+        { size: 'w-0 h-0' , color: 'bg-blue-700', imageUrl: './gl9.png'},
+        { size: 'w-70 h-90', color: 'bg-blue-800', imageUrl: './gl2.png' },
+        { size: 'w-0 h-0', color: 'bg-blue-900', imageUrl: './gl10.png' },
+        { size: 'w-0 h-0' , color: 'bg-blue-700', imageUrl: './gl9.png'},
+        { size: 'w-150 h-80', color: 'bg-blue-700', imageUrl: './gl3.png' },
+        { size: 'w-0 h-0', color: 'bg-blue-400', imageUrl: './img2.png' },
+        { size: 'w-0 h-0', color: 'bg-blue-800', imageUrl: './img2.png' },
+        { size: 'w-90 h-70',  imageUrl: './gl5.png'},
+        { size: 'w-140 h-50', imageUrl: './gl11.png'},
     ];
     return (
         <div className="min-h-screen bg-gradient-radial from-[rgba(16,59,77,0.66)] to-black flex items-center justify-center p-50 font-inter relative"> {/* Added relative to parent for absolute positioning of text */}
