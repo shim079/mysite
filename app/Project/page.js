@@ -51,7 +51,7 @@ const page = () => {
         </div>
         <div className={Styles.projectCard}>
           <div className="projectImage">
-            <Image src={`/phishingpic.png`} alt={"img"} width={"250"} height={"200"} />
+            <Image src={`./phishingpic.png`} alt={"img"} width={"250"} height={"200"} />
           </div>
 
           <div className={Styles.projectInfo}>
@@ -67,7 +67,7 @@ const page = () => {
 
         <div className={Styles.projectCard}>
           <div className="projectImage">
-            <Image src={`/img2.png`} alt={"img"} width={"250"} height={"200"} />
+            <Image src={`./img2.png`} alt={"img"} width={"250"} height={"200"} />
           </div>
 
           <div className={Styles.projectInfo}>
@@ -83,7 +83,7 @@ const page = () => {
 
         <div className={Styles.projectCard}>
           <div className="projectImage">
-            <Image src={`/img4.png`} alt={"img"} width={"250"} height={"200"} />
+            <Image src={`./img4.png`} alt={"img"} width={"250"} height={"200"} />
           </div>
 
           <div className={Styles.projectInfo}>
@@ -99,7 +99,7 @@ const page = () => {
 
           <div className={Styles.projectCard}>
           <div className="projectImage">
-            <Image src={`/img3.png`} alt={"img"} width={"250"} height={"200"} />
+            <Image src={`./img3.png`} alt={"img"} width={"250"} height={"200"} />
           </div>
 
           <div className={Styles.projectInfo}>
