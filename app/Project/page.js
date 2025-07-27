@@ -16,8 +16,8 @@ import SpotlightCard from './SpotlightCard';
 const page = () => {
 
   return (
-    <div className={Styles.Projects}>
-      <div style={{ position: 'relative', height: '300px ', width: '900px', paddingLeft: '650px', paddingTop: '100px' }}>
+      <div className={Styles.Projects}>
+      <div className="relative md:h-[200px] md:w-[900px] md:pl-[650px] h-[100px] w-[350px] pt-[50px] pl-[150px] ">
         <TextPressure
           text="Projects! "
           flex={true}
