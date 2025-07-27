@@ -2,7 +2,7 @@
 export default nextConfig;
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  
   basePath: '/mysite',
   assetPrefix: '/mysite/',
   // Optional: if you use images or static assets
