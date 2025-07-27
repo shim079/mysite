@@ -30,97 +30,104 @@ const Page = () => {
   };
 
   return (
-    <div className={styles.body}>
+   <div className={styles.body}>
+        <div className="relative md:h-[200px] md:w-[900px] md:pl-[650px] h-[100px] w-[350px] pt-[50px] pl-[150px] ">
+                <TextPressure
+                    text="Contact "
+                    flex={true}
+                    alpha={false}
+                    stroke={false}
+                    width={true}
+                    weight={true}
+                    italic={true}
+                    textColor="#ffffff"
+                    strokeColor="#ff0000"
+                    minFontSize={36}
+                />
+            </div>
       {/* Background Blur Circles */}
-      <div className="relative h-full w-fit bg-slate-950">
-        <div className="absolute bottom-0 left-[-20%] right-0 top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]"></div>
-        <div className="absolute bottom-0 right-[-20%] top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]"></div>
+      <div className="relative h-full w-fit bg-slate-950 overflow-hidden">
+        <div className="absolute top-[-10%] left-[-20%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),transparent)]" />
+        <div className="absolute top-[-10%] right-[-20%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),transparent)]" />
+        <div className="absolute bottom-0 left-[-20%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),transparent)]" />
+        <div className="absolute bottom-0 right-[-20%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),transparent)]" />
       </div>
 
-      {/* Contact Title */}
-      <div style={{ position: 'relative', height: '300px', width: '900px', paddingLeft: '650px', paddingTop: '100px' }}>
-        <TextPressure
-          text="Contact "
-          flex={true}
-          alpha={false}
-          stroke={false}
-          width={true}
-          weight={true}
-          italic={true}
-          textColor="#ffffff"
-          strokeColor="#ff0000"
-          minFontSize={36}
-        />
-      </div>
+      {/* Main Layout */}
+      <div className="flex flex-col md:flex-row justify-center items-start gap-20 px-4 md:px-20 py-10 w-full max-w-7xl mx-auto">
+        
+        {/* Contact Form */}
+        <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-6 w-full md:w-1/2">
+          <div className="flex flex-col gap-2">
+            <label htmlFor="fullname">Your Name</label>
+            <input
+              name="fullname"
+              id="fullname"
+              type="text"
+              placeholder="Name"
+              className="w-full h-10 px-6 py-2 rounded-2xl border border-slate-50"
+            />
+          </div>
 
-      {/* Contact Form */}
-      <form ref={form} onSubmit={sendEmail} className={styles.form}>
-        <div className='pl-15 pr-150 flex flex-col gap-2'>
-          <label htmlFor='fullname'>Your Name</label>
-          <input
+          <div className="flex flex-col gap-2">
+            <label htmlFor="email">Your Email</label>
+            <input
+              name="email"
+              id="email"
+              type="email"
+              placeholder="Email"
+              className="w-full h-10 px-6 py-2 rounded-2xl border border-slate-50"
+            />
+          </div>
 
-            name="fullname"
-            className='w-150 h-10 px-6 py-2 rounded-2xl border border-slate-50'
-            type='text'
-            id='fullname'
-            placeholder='Name'
-          />
+          <div className="flex flex-col gap-2">
+            <label htmlFor="message">Your Message</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Type Your Message Here"
+              className="w-full h-60 px-6 py-2 rounded-2xl border border-slate-50 shadow-md"
+            />
+          </div>
+
+          <Magnet padding={70} disabled={false} magnetStrength={20}>
+            <button
+              type="submit"
+              className="mt-3 p-3 text-white font-bold w-full md:w-40 h-12 rounded-2xl border border-white hover:bg-white hover:text-black transition-all"
+            >
+              Send
+            </button>
+          </Magnet>
+        </form>
+
+        {/* Contact Info */}
+        <div className="flex flex-col gap-6 w-full md:w-1/2 text-white">
+          <div className="p-10">
+            <h3>
+              I can listen and work with you whether you’re seeking a partner to help develop your brand,
+              explore new ideas, or just need someone to bounce ideas off of.
+            </h3>
+
+            <h2 className="pt-10">You can find me on:</h2>
+
+            <ul className="p-5 bg-[#FF00B61A] my-4 w-80 rounded-[10px]">
+              <li className="font-semibold">Email</li>
+              <li>Sh.s.alsuraihi@gmail.com</li>
+            </ul>
+
+            <ul className="p-5 bg-[#FF00B61A] my-4 w-80 rounded-[10px]">
+              <li className="font-semibold">Phone</li>
+              <li>966563772833</li>
+            </ul>
+
+            <div className="p-5 bg-[#FF00B61A] my-4 w-80 rounded-[10px] flex items-center space-x-6">
+              <p className="font-semibold">Social Media:</p>
+              <a href="https://www.linkedin.com/in/shaima-alharbi-7201b822a/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
+              <a href="/"><FaTwitter /></a>
+              <a href="https://www.behance.net/shaimas4" target="_blank" rel="noopener noreferrer"><FaBehance /></a>
+            </div>
+          </div>
         </div>
-
-        <div className='pl-15 pr-150 flex flex-col gap-2'>
-          <label htmlFor='email'>Your Email</label>
-          <input
-
-            name="email"
-            className='w-150 h-10 px-6 py-2 rounded-2xl border border-slate-50'
-            type='email'
-            id='email'
-            placeholder='Email'
-          />
-        </div>
-
-        <div className='pl-15 pr-150 flex flex-col gap-2'>
-          <label htmlFor='message'>Your Message</label>
-          <textarea
-
-            name="message"
-            className='shadow-md px-6 py-2 border border-slate-50 h-60 w-150 rounded-2xl'
-            id='message'
-            placeholder='Type Your Message Here'
-          />
-        </div>
-
-        <Magnet padding={70} disabled={false} magnetStrength={20}>
-          <button className='mt-3 p-3 ml-75 text-white font-bold border-1 w-29 h-12 rounded-2xl cursor-pointer' type='submit'>
-            Send
-          </button>
-        </Magnet>
-      </form>
-
-      {/* Contact Info */}
-      <div className='right-10 p-20 absolute top-98 max-w-180'>
-        <h3>
-          I can listen and work with you whether you’re seeking a partner to help develop your brand,
-          explore new ideas, or just need someone to bounce ideas off of.
-        </h3>
-        <h2 className='pt-10 ml-10'>You can find me on:</h2>
-
-        <ul className='p-5 bg-[#FF00B61A] m-4 ml-10 w-80 rounded-[10px]'>
-          <li>Email</li>
-          <li>Sh.s.alsuraihi@gmail.com</li>
-        </ul>
-
-        <ul className='p-5 bg-[#FF00B61A] m-4 ml-10 w-80 rounded-[10px]'>
-          <li>Phone</li>
-          <li>966563772833</li>
-        </ul>
-
-        <ul className='p-5 bg-[#FF00B61A] ml-10 w-80 rounded-[10px] flex items-center space-x-9 absolute'>
-          <p>Social media</p>
-          <a href='https://www.linkedin.com/in/shaima-alharbi-7201b822a/'><FaLinkedinIn /></a>
-          <a href='/'><FaTwitter /></a>
-          <a href='https://www.behance.net/shaimas4'><FaBehance /></a>
-        </ul>
       </div>
     </div>
   );
