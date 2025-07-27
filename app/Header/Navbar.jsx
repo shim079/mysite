@@ -40,19 +40,19 @@ export default function Navbar() {
       }`}
     >
       <div className=" md:flex ml-auto space-x-4 font-light font-sans text-[0.75rem] sm:text-[1rem] md:text-sm lg:text-base">
-                    <a href='/' className='text-white  hover:text-black rounded-lg p-2'>
+                    <a href='./' className='text-white  hover:text-black rounded-lg p-2'>
                         Home
                     </a>
-                    <Link href='/Services' className='text-white  hover:text-black rounded-lg p-2'>
+                    <Link href='./Services' className='text-white  hover:text-black rounded-lg p-2'>
                         Services
                     </Link>
-                    <a href='/Project' className='text-white  hover:text-black rounded-lg p-2'>
+                    <a href='./Project' className='text-white  hover:text-black rounded-lg p-2'>
                         Projects
                     </a>
-                    <a href='/About' className='text-white  hover:text-black rounded-lg p-2'>
+                    <a href='./About' className='text-white  hover:text-black rounded-lg p-2'>
                         About
                     </a>
-                    <a href='/Contact' className='text-white  hover:text-black rounded-lg p-2'>
+                    <a href='./Contact' className='text-white  hover:text-black rounded-lg p-2'>
                         Contact
                     </a>
                 </div>
