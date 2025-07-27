@@ -7,7 +7,7 @@ import Magnet from './Magnet'
 const page = () => {
     return (
         <div className={Styles.Skill}>
-            <div style={{ position: 'relative', height: '300px ', width: '900px', paddingLeft: '650px', paddingTop: '100px' }}>
+            <div className="relative md:h-[200px] md:w-[900px] md:pl-[650px] h-[100px] w-[350px] pt-[50px] pl-[150px] ">
                 <TextPressure
                     text="Skills! "
                     flex={true}
@@ -105,7 +105,7 @@ const page = () => {
 
             </div>
             <Magnet padding={70} disabled={false} magnetStrength={20}>
-                <button className='font-sans font-light ml-263 mt-7 p-4 border-2 rounded-3xl'> And more Technical skills! </button>
+                <button className='hidden sm:inline-block font-sans font-light ml-263 mt-7 p-4 border-2 rounded-3xl '> And more Technical skills! </button>
             </Magnet>
         </div>
     )
