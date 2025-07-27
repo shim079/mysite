@@ -94,4 +94,37 @@ flex-wrap: wrap;
     color: #c8c8c8;
     
 }
+@media (max-width: 768px) {
+    .Card {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        padding: 20px;
+    }
 
+    .Icon {
+        
+        align-items: center;
+        font-size: 40px;
+        gap: 20px;
+    }
+
+    .H1Container {
+        position: static;
+        padding: 0 20px;
+        flex-direction: column;
+    }
+
+    .Content {
+        position: static;
+        margin: 20px;
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .Title {
+        font-size: 1.5em;
+        padding: 40px 20px;
+    }
+}
