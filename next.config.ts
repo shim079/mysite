@@ -1,4 +1,4 @@
-export default nextConfig;
+
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -12,5 +12,5 @@ const nextConfig = {
   // Optional: if deploying static export
   output: 'export',
 };
-
+export default nextConfig;
 module.exports = nextConfig;
