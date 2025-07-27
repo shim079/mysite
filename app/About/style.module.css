@@ -109,6 +109,47 @@ flex-wrap: wrap;
         font-size: 40px;
         gap: 20px;
     }
+     .H2 {
+        font-size: small;
+    }
+
+    .H1Container {
+        position: static;
+        padding: 0 20px;
+        flex-direction: column;
+    }
+
+    .Content {
+        position: static;
+        margin: 20px;
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .Title {
+        font-size: 1.5em;
+        padding: 40px 20px;
+    }
+}
+@media (max-width: 568px) {
+    .Card {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        padding: 10px;
+    }
+
+    .Icon {
+        
+        align-items: center;
+        font-size: 30px;
+        gap: 20px;
+    }
+    .H2 {
+        font-size: x-small;
+        
+    }
 
     .H1Container {
         position: static;
