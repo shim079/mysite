@@ -45,7 +45,7 @@ const page = () => {
               <span>Web development</span>
               <a href="#" className={Styles.moreDetails}>More Details</a>
             </strong>
-            <p className='ml-3'>This project showcases a responsive Login Page built using modern web development technologies. Designed with a user-friendly interface.
+            <p className='ml-3 text-[0.75rem] md:text-[1.05rem]'>This project showcases a responsive Login Page built using modern web development technologies. Designed with a user-friendly interface.
             </p>
           </div>
         </div>
@@ -60,7 +60,7 @@ const page = () => {
               <span>Web development</span>
               <a href="#" className={Styles.moreDetails}>More Details</a>
             </strong>
-            <p className='ml-3'>The Phishing Detection project is a responsive web application developed using Python. It aims to identify potentially malicious websites or login pages that mimic legitimate ones to steal user credentials. Built with a clean, user-friendly interface.
+            <p className='ml-3 text-[0.75rem] md:text-[1.05rem]'>The Phishing Detection project is a responsive web application developed using Python. It aims to identify potentially malicious websites or login pages that mimic legitimate ones to steal user credentials. Built with a clean, user-friendly interface.
             </p>
           </div>
         </div>
@@ -76,7 +76,7 @@ const page = () => {
               <span>Web development</span>
               <a href="file:///C:/Users/shsal/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/plant/index.html#gallery" className={Styles.moreDetails}>More Details</a>
             </strong>
-            <p className='ml-3'>The Plant Website is a visually appealing and informative web project designed to promote awareness and appreciation for plants. Developed using HTML, CSS, and JavaScript.
+            <p className='ml-3 text-[0.75rem] md:text-[1.05rem]'>The Plant Website is a visually appealing and informative web project designed to promote awareness and appreciation for plants. Developed using HTML, CSS, and JavaScript.
             </p>
           </div>
         </div>
@@ -92,7 +92,7 @@ const page = () => {
               <span>Web development</span>
               <a href="file:///C:/Users/shsal/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/Responsive%20Navigation%20Bar/index.html" className={Styles.moreDetails}>More Details</a>
             </strong>
-            <p className='ml-3'>This Responsive Navigation Bar project highlights the implementation of a dynamic and mobile-friendly navigation system using HTML, CSS, and JavaScript. The navigation bar adjusts seamlessly to various screen sizes, providing an intuitive user experience on desktops, tablets, and mobile devices.
+            <p className='ml-3 text-[0.75rem] md:text-[1.05rem]'>This Responsive Navigation Bar project highlights the implementation of a dynamic and mobile-friendly navigation system using HTML, CSS, and JavaScript. The navigation bar adjusts seamlessly to various screen sizes, providing an intuitive user experience on desktops, tablets, and mobile devices.
             </p>
           </div>
         </div>
@@ -108,7 +108,7 @@ const page = () => {
               <span>Web development</span>
               <a href="#" className={Styles.moreDetails}>More Details</a>
             </strong>
-            <p className='ml-3'>FamFlix is a web-based entertainment platform designed to mimic a family-friendly streaming service. Built using modern web development tools, it features a clean user interface, category-based browsing, and responsive design optimized for all devices.
+            <p className='ml-3 text-[0.75rem] md:text-[1.05rem]'>FamFlix is a web-based entertainment platform designed to mimic a family-friendly streaming service. Built using modern web development tools, it features a clean user interface, category-based browsing, and responsive design optimized for all devices.
             </p>
           </div>
         </div>
@@ -128,7 +128,7 @@ const page = () => {
             minFontSize={36}
           />
         </div>
-        <App />
+       
       </SpotlightCard>
     </div>
 
