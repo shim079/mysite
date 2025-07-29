@@ -7,7 +7,7 @@ import Magnet from './Magnet'
 const page = () => {
     return (
         <div className={Styles.Skill}>
-            <div className="relative md:h-[200px] md:w-[900px] md:pl-[650px] h-[100px] w-[350px] pt-[50px] pl-[150px] ">
+            <div className="relative md:h-[200px] md:w-[900px] md:pl-[650px] h-[100px] w-[350px] pt-[40px] pl-[130px] ">
                 <TextPressure
                     text="Skills! "
                     flex={true}
