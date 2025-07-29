@@ -35,11 +35,11 @@ export default function Navbar() {
 
     {/* RIGHT: Navigation Links */}
     <SpotlightCard
-      className={`right-0 w-[70vw] sm:w-[500px] h-20 rounded-l-3xl fixed top-0 z-50 flex items-center px-4 sm:px-6 md:px-9 backdrop-blur-md bg-[#4e4e5a62] transition-transform duration-300 ease-in-out ${
+      className={`right-0 w-[65vw] sm:w-[500px] h-20 rounded-l-3xl fixed top-0 z-50 flex items-center px-6 sm:px-6 md:px-9 backdrop-blur-md bg-[#4e4e5a62] transition-transform duration-300 ease-in-out ${
         showNavbar ? 'translate-x-0' : 'translate-x-full'
       }`}
     >
-      <div className=" md:flex ml-auto space-x-4 font-light font-sans text-[0.65rem] sm:text-[1rem] md:text-sm lg:text-base">
+      <div className=" md:flex ml-auto space-x-2 font-light font-sans text-[0.65rem] sm:text-[1rem] md:text-sm lg:text-base">
                     <a href='./' className='text-white  hover:text-black rounded-lg p-2'>
                         Home
                     </a>
