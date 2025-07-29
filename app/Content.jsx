@@ -31,14 +31,14 @@ const Nav = () => {
     return (
         <div className='flex shrink-0 gap-20'>
             <div className='flex flex-col gap-2'>
-                <h3 className='mb-10 uppercase text-[#ffffff80]'>About</h3>
+                <h3 className='mb-10 uppercase text-[#ffffff80]'>Navigations</h3>
                 <a href='/'>Home</a>
                 <a href='./Project'>Projects</a>
                 <a href='/Services'>Services</a>
                 <a href='/Contact'>Contact Me</a>
             </div>
             <div className='flex flex-col gap-2'>
-                <h3 className='mb-10 uppercase text-[#ffffff80]'>Education</h3>
+                <h3 className='mb-10 uppercase text-[#ffffff80]'>About</h3>
                 <p>Data Analysis</p>
                 <p>Web development</p>
                 <p>Graohic Design</p>
