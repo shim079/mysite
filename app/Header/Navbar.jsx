@@ -24,7 +24,7 @@ export default function Navbar() {
        <div>
     {/* LEFT: SHAIMA Logo */}
     <SpotlightCard
-      className={`left-0 w-[20vw] sm:w-[220px] h-20 rounded-r-3xl fixed top-0 z-50 flex items-center px-6 sm:px-10 md:px-16 backdrop-blur-md bg-[#4e4e5a62] transition-transform duration-300 ease-in-out ${
+      className={`left-0 w-[23vw] sm:w-[220px] h-20 rounded-r-3xl fixed top-0 z-50 flex items-center px-6 sm:px-10 md:px-16 backdrop-blur-md bg-[#4e4e5a62] transition-transform duration-300 ease-in-out ${
         showNavbar ? 'translate-x-0' : '-translate-x-full'
       }`}
     >
@@ -39,7 +39,7 @@ export default function Navbar() {
         showNavbar ? 'translate-x-0' : 'translate-x-full'
       }`}
     >
-      <div className=" md:flex ml-auto space-x-4 font-light font-sans text-[0.75rem] sm:text-[1rem] md:text-sm lg:text-base">
+      <div className=" md:flex ml-auto space-x-4 font-light font-sans text-[0.65rem] sm:text-[1rem] md:text-sm lg:text-base">
                     <a href='./' className='text-white  hover:text-black rounded-lg p-2'>
                         Home
                     </a>
