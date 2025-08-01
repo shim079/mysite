@@ -24,7 +24,7 @@ export default function Navbar() {
        <div>
     {/* LEFT: SHAIMA Logo */}
     <SpotlightCard
-      className={`left-0 w-[23vw] sm:w-[220px] h-20 rounded-r-3xl fixed top-0 z-50 flex items-center px-6 sm:px-10 md:px-16 backdrop-blur-md bg-[#4e4e5a62] transition-transform duration-300 ease-in-out ${
+      className={`left-3 w-[23vw] sm:w-[220px] h-20 rounded-r-3xl fixed top-7 z-50 flex items-center px-6 sm:px-10 md:px-16 backdrop-blur-md bg-[#4e4e5a62] transition-transform duration-300 ease-in-out ${
         showNavbar ? 'translate-x-0' : '-translate-x-full'
       }`}
     >
@@ -35,7 +35,7 @@ export default function Navbar() {
 
     {/* RIGHT: Navigation Links */}
     <SpotlightCard
-      className={`right-0 w-[65vw] sm:w-[500px] h-20 rounded-l-3xl fixed top-0 z-50 flex items-center px-6 sm:px-6 md:px-9 backdrop-blur-md bg-[#4e4e5a62] transition-transform duration-300 ease-in-out ${
+      className={`right-3 w-[65vw] sm:w-[500px] h-20 rounded-l-3xl fixed top-7 z-50 flex items-center px-6 sm:px-6 md:px-9 backdrop-blur-md bg-[#4e4e5a62] transition-transform duration-300 ease-in-out ${
         showNavbar ? 'translate-x-0' : 'translate-x-full'
       }`}
     >
