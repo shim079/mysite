@@ -27,8 +27,6 @@ const page = () => {
 
 
 
-
-
             <div className={Styles.H1Container}>
                 <div className={Styles.Content}>
                     <BlurText
