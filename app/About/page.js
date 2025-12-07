@@ -3,6 +3,7 @@ import { FaHtml5, FaCss3, FaNodeJs, FaJava, FaReact, FaBootstrap, FaPython, FaGi
 import Styles from './style.module.css'
 import TextPressure from './TextPressure';
 import Magnet from './Magnet'
+import SpotlightCard from './SpotlightCard';
 
 const page = () => {
     return (
@@ -104,9 +105,33 @@ const page = () => {
 
 
             </div>
-            <Magnet padding={70} disabled={false} magnetStrength={20}>
-                <button className='hidden sm:inline-block font-sans font-light ml-263 mt-7 p-4 border-2 rounded-3xl '> And more Technical skills! </button>
-            </Magnet>
+                        
+            <SpotlightCard className="w-full max-w-6xl mx-auto mt-20 box-content content-center cursor-pointer text-center
+             h-auto text-white transition-all duration-500 rounded-3xl p-6 
+             custom-spotlight-card">
+
+  {/* Text Above */}
+  <h1 className="text-white text-base sm:text-lg md:text-xl mb-3">
+  Resume / CV
+  </h1>
+  <p className="text-white/40 text-base sm:text-lg md:text-xl mb-2">
+    Download my professional resume
+  </p>
+
+  {/* Button */}
+  <div className="flex justify-center">
+    <Magnet padding={70} disabled={false} magnetStrength={20}>
+      <div className={Styles.ButtonWrapper}>
+        <a href="/resume.pdf" download className={Styles.MoreButton}>
+          Download
+        </a>
+      </div>
+    </Magnet>
+  </div>
+
+</SpotlightCard>
+
+            </div>
         </div>
     )
 }
