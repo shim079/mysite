@@ -11,15 +11,16 @@ const page = () => {
     <div className={styles.all}>
      <div className=' p-10 md:p-30 pb-95  '>
                 <div className='mb-10'>
-                    <h2  className=' relative z-10 xl:pl-30 pt-35 text-white text-4xl text-shadow-lg'>Hi, I’M SHAIMA {" "}<TextType
+                    <h2  className=' relative z-10 xl:pl-30 pt-35 text-white/50 text-4xl text-shadow-lg'>Hi, I’M SHAIMA {" "}</h2>
+                      <TextType className=' relative z-10 xl:pl-30 pt-5 text-white text-2xl text-shadow-lg'
               text={["Graphic Designer", "Full Stack Developer", "Self-Learner"]}
               typingSpeed={75}
               pauseDuration={1500}
               showCursor={true}
               cursorCharacter="|"
-            /></h2>
-                    <h3 className=' relative z-10 xl:pl-30 mt-3 text-white xl:text-3xl text-2xl '>Graphic Designer, Full Stack Developer, And a Self-Learner</h3>
-                    <h5 className=' relative z-10 xl:pl-30 mt-3 text-white text-1'>I craft intutive, beautiful, and accessible mobile experiences. Passionate about turning ideas into apps that peaple love.</h5>
+            />
+                    <h3 className=' relative z-10 xl:pl-30 mt-3 text-white/70 xl:text-2xl text-base '> A passionate Graphic Designer, Full-Stack Developer, and lifelong self-learner. I love bringing ideas to life through clean design, intuitive interfaces, and thoughtful user experiences.</h3>
+                    <h5 className=' relative z-10 xl:pl-30 mt-3 text-white/70 xl:text-2xl text-base'>I craft intutive, beautiful, and accessible mobile experiences. Passionate about turning ideas into apps that peaple love.</h5>
                 </div>
     
                 <div className='text-1xl text-white xl:ml-30 flex items-center space-x-9 
