@@ -77,21 +77,23 @@ flex-wrap: wrap;
     font-family: var(--font-techno), monospace;
     font-weight: 200;
 }
-.H1Container{
-    position: absolute;
-    display: flex;
-    padding-right: 700px;
-    padding-left: 60px;
-
-
+.H1Container {
+     display: flex;
+    justify-content: center; /* Push everything to the right */
+    align-items: flex-start;
+    gap: 60px;                 /* Space between text and icons */
+    width: 100%;
+    padding: 30px;        /* adjust how far right */
+     flex-wrap: wrap;
 }
-.Content{
-    margin-right: 40px;
-    margin-top: 90px;
-   position: absolute;
-    font-size: 1.6em;
-    color: #c8c8c8;
+
+.Content {
+     font-size: 1.3em;
     
+    color: #c8c8c8;
+    max-width: 650px; 
+    padding-top: 90px;         /* Keeps paragraph readable */
+    text-align: center;  
 }
 @media (max-width: 768px) {
     .Card {
