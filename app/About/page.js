@@ -1,14 +1,16 @@
-import React from 'react'
+"use client";
+
+import React, { use } from 'react'
 import { FaHtml5, FaCss3, FaNodeJs, FaJava, FaReact, FaBootstrap, FaPython, FaGithub, FaDiagramProject } from 'react-icons/fa6';
 import Styles from './style.module.css'
 import TextPressure from './TextPressure';
 import Magnet from './Magnet'
+import BlurText from "./BlurText";
 import SpotlightCard from './SpotlightCard';
-
 const page = () => {
     return (
         <div className={Styles.Skill}>
-            <div className="relative md:h-[200px] md:w-[900px] md:pl-[650px] h-[100px] w-[350px] pt-[40px] pl-[130px] ">
+            <div style={{ position: 'relative', height: '300px ', width: '900px', paddingLeft: '650px', paddingTop: '100px' }}>
                 <TextPressure
                     text="Skills! "
                     flex={true}
@@ -24,13 +26,24 @@ const page = () => {
             </div>
 
 
+
+
+
             <div className={Styles.H1Container}>
                 <div className={Styles.Content}>
-                    I'm a senior-year student at SEU in Jeddah with a strong passion for learning and exploring technologies.
-                    My expertise includes Software Develpment, Data Analsis, And Information Security.
-                    and I'm always open to learn new tools and technologies.
+                    <BlurText
+      text="I'm a senior-year student at SEU in Jeddah with a strong passion for learning and exploring technologies. 
+      My expertise includes Software Development, Data Analysis, And Information Security. 
+      I'm always open to learn new tools and technologies."
+      delay={150}
+      animateBy="words"
+      direction="top"
+      className="mb-4"
+    />
+
+    
                 </div>
-            </div>
+            
 
 
             <div className={Styles.Card}>
@@ -105,7 +118,7 @@ const page = () => {
 
 
             </div>
-                        
+
             <SpotlightCard className="w-full max-w-6xl mx-auto mt-20 box-content content-center cursor-pointer text-center
              h-auto text-white transition-all duration-500 rounded-3xl p-6 
              custom-spotlight-card">
@@ -131,7 +144,12 @@ const page = () => {
 
 </SpotlightCard>
 
+
+
+
             </div>
+           
+            
         </div>
     )
 }
