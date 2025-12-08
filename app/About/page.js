@@ -10,7 +10,7 @@ import SpotlightCard from './SpotlightCard';
 const page = () => {
     return (
         <div className={Styles.Skill}>
-            <div style={{ position: 'relative', height: '300px ', width: '900px', paddingLeft: '650px', paddingTop: '100px' }}>
+            <div className="relative md:h-[200px] md:w-[900px] md:pl-[650px] h-[100px] w-[350px] pt-[40px] pl-[130px] ">
                 <TextPressure
                     text="Skills! "
                     flex={true}
