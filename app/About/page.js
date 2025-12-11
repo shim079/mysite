@@ -117,21 +117,21 @@ const page = () => {
 
             </div>
 
-            <SpotlightCard className="w-full max-w-6xl mx-auto mt-20 box-content content-center cursor-pointer text-center
+            <SpotlightCard className="w-full max-w-6xl mx-auto mt-10 box-content content-center cursor-pointer text-center
              h-auto text-white transition-all duration-500 rounded-3xl p-6 
              custom-spotlight-card">
 
   {/* Text Above */}
-  <h1 className="text-white text-base sm:text-lg md:text-xl mb-3">
+  <h1 className="text-white text-base sm:text-lg md:text-xl mb-1">
   Resume / CV
   </h1>
-  <p className="text-white/40 text-base sm:text-lg md:text-xl mb-2">
+  <p className="text-white/40 text-base sm:text-lg md:text-xl mb-1">
     Download my professional resume
   </p>
 
   {/* Button */}
   <div className="flex justify-center">
-    <Magnet padding={70} disabled={false} magnetStrength={20}>
+    <Magnet padding={50} disabled={false} magnetStrength={20}>
       <div className={Styles.ButtonWrapper}>
         <a href="/resume.pdf" download className={Styles.MoreButton}>
           Download
