@@ -1,6 +1,6 @@
 .Skill{
 
-    height: 950px;
+    height: 1000px;
     font-family: var(--font-techno), monospace;
     flex-direction: column;
     width: 100%;
@@ -132,8 +132,11 @@
 /* Mobile screens */
 @media (max-width: 600px) {
     .Icon {
-        font-size: 30px;
+        font-size: 25px;
         gap: 20px;
+    }
+    .H1Container {
+        padding: 3px 3px;
     }
 
     .Content {
@@ -154,6 +157,6 @@
 
 @media (max-width: 600px) {
     .Skill {
-        padding-top: 40px;
+        padding-top: 80px;
     }
 }
