@@ -134,9 +134,10 @@
     .Icon {
         font-size: 25px;
         gap: 20px;
+        align-items: center;
     }
     .H1Container {
-        padding: 3px 4px;
+        padding: 0px 10px;
     }
 
     .Content {
