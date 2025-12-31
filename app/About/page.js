@@ -117,21 +117,31 @@ const page = () => {
 
             </div>
 
-            <SpotlightCard className="w-full max-w-6xl mx-auto mt-10 box-content content-center cursor-pointer text-center
+            <SpotlightCard className="w-full max-w-3xl mx-auto mt-10 box-content content-center text-center
              h-auto text-white transition-all duration-500 rounded-3xl p-6 
-             custom-spotlight-card">
+    px-6         /* mobile padding (larger edge padding) */
+    py-6
+    sm:px-8      /* tablet padding */
+    sm:py-8
+    md:px-10     /* desktop padding */
+    md:py-10
+             custom-spotlight-card"
+                 style={{
+    padding: 'clamp(2rem, 8vw, 2.5rem) clamp(1.5rem, 10vw, 3rem)'
+  }}
+                 >
 
   {/* Text Above */}
-  <h1 className="text-white text-base sm:text-lg md:text-xl mb-1">
+  <h1 className="text-white text-lg sm:text-xl md:text-2xl mb-2">
   Resume / CV
   </h1>
-  <p className="text-white/40 text-base sm:text-lg md:text-xl mb-1">
+  <p className="text-white/40 text-sm sm:text-base md:text-lg mb-4">
     Download my professional resume
   </p>
 
   {/* Button */}
-  <div className="flex justify-center">
-    <Magnet padding={50} disabled={false} magnetStrength={20}>
+  <div className="flex justify-center overflow-hidden">
+    <Magnet padding={20} disabled={false} magnetStrength={20}>
       <div className={Styles.ButtonWrapper}>
         <a href="/resume.pdf" download className={Styles.MoreButton}>
           Download
