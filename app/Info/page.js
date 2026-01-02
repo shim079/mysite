@@ -5,11 +5,13 @@ import React from 'react'
 import { FaAlignRight, Fa42Group, FaTwitter, FaLinkedinIn, FaBehance } from "react-icons/fa6";
 import SpotlightCard from './SpotlightCard';
 import TextType from './TextType';
-
+import TidioLoader from './TidioLoader';
 
 
 const page = () => {
   return (
+    <>
+      <TidioLoader /> {/* Chatbot loads here */}
     <div className={styles.all}>
      <div className=' p-10 md:p-30 pb-95  '>
                 <div className='mb-10'>
