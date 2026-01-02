@@ -6,6 +6,8 @@ import { FaAlignRight, Fa42Group, FaTwitter, FaLinkedinIn, FaBehance } from "rea
 import SpotlightCard from './SpotlightCard';
 import TextType from './TextType';
 
+<script src="//code.tidio.co/5cdxb8nm9iemnjzx1al06isrq3u9i1yv.js" async></script>
+
 const page = () => {
   return (
     <div className={styles.all}>
