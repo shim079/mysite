@@ -55,11 +55,9 @@ const page = () => {
     
             </SpotlightCard>
      
-        
-    
-    
             </div>
             </div>
+  </>
   )
 }
 
