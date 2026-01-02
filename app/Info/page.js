@@ -11,10 +11,6 @@ import TextType from './TextType';
 const page = () => {
   return (
     <div className={styles.all}>
-  <Script
-        strategy="lazyOnload"
-        src="//code.tidio.co/5cdxb8nm9iemnjzx1al06isrq3u9i1yv.js"
-      />
      <div className=' p-10 md:p-30 pb-95  '>
                 <div className='mb-10'>
                     <h2  className=' relative z-10 xl:pl-30 pt-35 text-white/50 text-4xl text-shadow-lg'>Hi, I’M SHAIMA {" "}</h2>
