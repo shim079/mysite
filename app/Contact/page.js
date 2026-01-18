@@ -89,7 +89,7 @@ const Page = () => {
       </div>
 
       {/* Contact Title */}
-      <div style={{ position: 'relative', height: '270px', width: '900px', paddingLeft: '630px', paddingTop: '100px' }}>
+      <div className="relative md:h-[200px] md:w-[900px] md:pl-[650px] h-[100px] w-[350px] pt-[40px] pl-[130px] mb-16">
         <TextPressure
           text="Contact "
           flex={true}
