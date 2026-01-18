@@ -57,7 +57,7 @@ const page = () => {
           <div className={Styles.projectInfo}>
             <p className='m-2.5'>Phishing Detection</p>
             <strong className={Styles.projectTitle}>
-              <span>Web development</span>
+              <span>Web-based Security Tool</span>
               <a href="#" className={Styles.moreDetails}>More Details</a>
             </strong>
             <p className='ml-3 text-[0.75rem] md:text-[1.05rem]'>The Phishing Detection project is a responsive web application developed using Python. It aims to identify potentially malicious websites or login pages that mimic legitimate ones to steal user credentials. Built with a clean, user-friendly interface.
