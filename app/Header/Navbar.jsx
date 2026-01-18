@@ -39,7 +39,7 @@ export default function Navbar() {
         showNavbar ? 'translate-x-0' : 'translate-x-full'
       }`}
     >
-      <div className=" md:flex ml-auto space-x-2 font-light font-sans text-[0.65rem] sm:text-[1rem] md:text-sm lg:text-base">
+      <div className=" md:flex ml-auto space-x-1 font-light font-sans text-[0.65rem] sm:text-[1rem] md:text-sm lg:text-base">
                     <a href='./' className='text-white  hover:text-black rounded-lg p-2'>
                         Home
                     </a>
